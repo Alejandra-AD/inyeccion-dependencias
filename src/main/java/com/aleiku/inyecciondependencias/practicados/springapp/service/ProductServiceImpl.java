@@ -4,11 +4,11 @@ import java.util.List;
 import java.util.stream.Collectors;
 
 import com.aleiku.inyecciondependencias.practicados.springapp.models.Product;
-import com.aleiku.inyecciondependencias.practicados.springapp.repositories.ProductRepository;
+import com.aleiku.inyecciondependencias.practicados.springapp.repositories.ProductRepositoryImpl;
 
-public class ProductService {// Se puede hacer logica de negocio
+public class ProductServiceImpl implements ProductService {// Se puede hacer logica de negocio
 
-    private ProductRepository productRepository = new ProductRepository();
+    private ProductRepositoryImpl productRepository = new ProductRepositoryImpl();
 
     public List <Product> findAll(){
         return productRepository.findAll().stream().map(product -> {
