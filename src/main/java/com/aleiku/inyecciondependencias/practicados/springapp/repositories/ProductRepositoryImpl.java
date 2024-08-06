@@ -3,8 +3,12 @@ package com.aleiku.inyecciondependencias.practicados.springapp.repositories;
 import java.util.Arrays;
 import java.util.List;
 
+import org.springframework.stereotype.Repository;
+
 import com.aleiku.inyecciondependencias.practicados.springapp.models.Product;
 
+
+@Repository
 public class ProductRepositoryImpl implements ProductRepository {
 
     private List <Product> products;

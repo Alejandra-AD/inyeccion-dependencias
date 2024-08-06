@@ -3,12 +3,25 @@ package com.aleiku.inyecciondependencias.practicados.springapp.service;
 import java.util.List;
 import java.util.stream.Collectors;
 
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
 import com.aleiku.inyecciondependencias.practicados.springapp.models.Product;
 import com.aleiku.inyecciondependencias.practicados.springapp.repositories.ProductRepositoryImpl;
 
+
+@Service
 public class ProductServiceImpl implements ProductService {// Se puede hacer logica de negocio
 
-    private ProductRepositoryImpl productRepository = new ProductRepositoryImpl();
+
+
+    private ProductRepositoryImpl productRepository;
+
+    //Inyección de dependecia mediante contructor
+    
+    public ProductServiceImpl(ProductRepositoryImpl productRepository) {
+        this.productRepository = productRepository;
+    }
 
     public List <Product> findAll(){
         return productRepository.findAll().stream().map(product -> {

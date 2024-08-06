@@ -4,6 +4,7 @@ import java.util.List;
 
 import com.aleiku.inyecciondependencias.practicados.springapp.models.Product;
 
+
 public interface ProductRepository {
 
     List <Product> findAll();
