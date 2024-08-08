@@ -1,0 +1,102 @@
+[
+    {
+      "id": 1,
+      "name": "Nintendo Switch",
+      "price": 300
+    },
+    {
+      "id": 2,
+      "name": "Nintendo Switch Lite",
+      "price": 200
+    },
+    {
+      "id": 3,
+      "name": "Nintendo Switch Pro Controller",
+      "price": 70
+    },
+    {
+      "id": 4,
+      "name": "The Legend of Zelda: Breath of the Wild",
+      "price": 60
+    },
+    {
+      "id": 5,
+      "name": "Super Mario Odyssey",
+      "price": 60
+    },
+    {
+      "id": 6,
+      "name": "Mario Kart 8 Deluxe",
+      "price": 60
+    },
+    {
+      "id": 7,
+      "name": "Animal Crossing: New Horizons",
+      "price": 60
+    },
+    {
+      "id": 8,
+      "name": "Splatoon 2",
+      "price": 60
+    },
+    {
+      "id": 9,
+      "name": "Super Smash Bros. Ultimate",
+      "price": 60
+    },
+    {
+      "id": 10,
+      "name": "Pokémon Sword",
+      "price": 60
+    },
+    {
+      "id": 11,
+      "name": "Pokémon Shield",
+      "price": 60
+    },
+    {
+      "id": 12,
+      "name": "Ring Fit Adventure",
+      "price": 80
+    },
+    {
+      "id": 13,
+      "name": "Luigi's Mansion 3",
+      "price": 60
+    },
+    {
+      "id": 14,
+      "name": "Fire Emblem: Three Houses",
+      "price": 60
+    },
+    {
+      "id": 15,
+      "name": "Xenoblade Chronicles 2",
+      "price": 60
+    },
+    {
+      "id": 16,
+      "name": "Nintendo Labo - Variety Kit",
+      "price": 70
+    },
+    {
+      "id": 17,
+      "name": "Donkey Kong Country: Tropical Freeze",
+      "price": 60
+    },
+    {
+      "id": 18,
+      "name": "Yoshi's Crafted World",
+      "price": 60
+    },
+    {
+      "id": 19,
+      "name": "Pikmin 3 Deluxe",
+      "price": 60
+    },
+    {
+      "id": 20,
+      "name": "Paper Mario: The Origami King",
+      "price": 60
+    }
+]

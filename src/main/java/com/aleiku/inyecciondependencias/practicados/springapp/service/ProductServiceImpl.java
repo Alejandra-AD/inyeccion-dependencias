@@ -7,6 +7,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import com.aleiku.inyecciondependencias.practicados.springapp.models.Product;
+import com.aleiku.inyecciondependencias.practicados.springapp.repositories.ProductRepository;
 import com.aleiku.inyecciondependencias.practicados.springapp.repositories.ProductRepositoryImpl;
 
 
@@ -15,11 +16,11 @@ public class ProductServiceImpl implements ProductService {// Se puede hacer log
 
 
 
-    private ProductRepositoryImpl productRepository;
+    private ProductRepository productRepository;
 
     //Inyección de dependecia mediante contructor
-    
-    public ProductServiceImpl(ProductRepositoryImpl productRepository) {
+
+    public ProductServiceImpl(ProductRepository productRepository) {
         this.productRepository = productRepository;
     }
 
