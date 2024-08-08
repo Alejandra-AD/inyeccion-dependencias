@@ -8,12 +8,11 @@ import com.aleiku.inyecciondependencias.practicados.springapp.repositories.Produ
 
 @Configuration
 public class AppConfig {
-
-      
-      @Bean
-      @Primary
-     ProductRepository productRepositoryJson(){
-        return new ProductRepositoryJson();
-     }
+   
+   @Bean
+   ProductRepository productRepositoryJson(){
+      return new ProductRepositoryJson();
+   }
+     
 
 }
